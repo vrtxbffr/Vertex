@@ -1,15 +1,10 @@
 * {
     box-sizing: border-box;
   }
-
   :root {
-      --color-background: #182028;
-      --stroke-width: calc(1em / 16);
-      --font-size: 30vmin;
-      --font-weight: 700;
-      --letter-spacing: calc(1em / 8);
-   }
-  
+    --background-color: black;
+    --text-color: hsl(0, 0%, 100%);
+  }
   body {
     margin: 0;
     background: #182028;
@@ -87,16 +82,11 @@
 
   h1 {
     font-size: 9vmin;
-    color: var(--color-background);
-    background-image: linear-gradient(to right, #09f1b8, #00a2ff, #ff00d2, #fed90f);
+    color: #FFFFFF;
     text-align: left;
     font-family: Lato, sans-serif;
-    font-size: var(--font-size);
-    font-weight: var(--font-weight);
-    letter-spacing: var(--letter-spacing);
-    padding: calc(--stroke-width / 2);
-    -webkit-text-stroke-color: transparent;
-    -webkit-text-stroke-width: var(--stroke-width);
+    font-weight: 700;
+    margin: 1rem 0 1rem 2rem;
   }
   
   h2 {
